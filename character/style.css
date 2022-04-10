@@ -1,0 +1,63 @@
+ /* reset */
+ body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+/* layout */
+body{
+  background-color: #D9F8FF;
+}
+
+.olaf {
+  width: 254px;
+  height: 286px;
+  position: relative;
+  top: 200px;
+  margin: 50px auto;
+}
+
+ .face {
+  width: 254px;
+  height: 286px;
+  /* filter: blur(1px) drop-shadow(0px 4px 4px rgba(0, 118, 134, 0.25)); */
+} 
+
+.mainHead {
+  position: absolute; 
+  width: 254px;
+  height: 205.88px;
+  background: #FFFFFF;
+  border-radius: 102px 103px 134.5px 134.5px; 
+}
+
+.forhead {
+  position: absolute;
+  top: -70px;
+  left: 30px;
+  width: 198px;
+  height: 218.93px;
+  background: #FFFFFF;
+  border-radius: 134.5px 134.5px 120px 123px;
+}
+
+
+.hair {
+  background-image: url(/character/img/Group\ 4.svg);
+  width: 155.69px;
+  height: 186.62px;
+  position: absolute;
+  top: -180px;
+  left: 45px;
+  z-index: -1;
+}
+
+
+       
+        
