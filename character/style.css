@@ -1,5 +1,5 @@
 /* reset */
-body {
+body,h1,p {
   margin: 0;
   padding: 0;
 }
@@ -12,7 +12,7 @@ body {
 
 /* layout */
 body {
-  background-color: #d7ffff;
+  background-color: #cbf1ff;
   font-family: 'Lobster', cursive;
 }
 
@@ -20,14 +20,13 @@ h1 {
   font-size: 80px;
   color: #6BFFB8;
   text-align: center;
-  margin: 20px 0 0 0;
+  margin: 50px 0 0;
 }
 
 p{
   font-size: 60px;
   text-align: center;
-  color: #d5d1d1;
-  margin: 0px;
+  color: #cac9ff;
 }
 
 .olaf {
