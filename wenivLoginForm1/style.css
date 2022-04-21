@@ -12,6 +12,7 @@ section {
 
 a {
   text-decoration: none;
+  color: #767676;
 }
 
 body {
@@ -21,7 +22,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .hidden {
@@ -30,12 +30,11 @@ body {
 
 .main-page {
   width: 350px;
-  height: 140px;
   background: #FFFFFF;
   border: 1px solid #DBDBDB;
   box-sizing: border-box;
   border-radius: 5px;
-  padding: 20px 16px;
+  padding: 20px 16px 18px 16px;
 }
 
 .opening {
@@ -45,15 +44,16 @@ body {
 }
 
 .login-btn {
-  width: 318px;
+  /* width: 318px; */
   background: #711BFF;
   border-radius: 4px;
   display: flex;
   justify-content: center;
+  /* vertical-align: -3px; */
   align-items: flex-end;
   color: #FFFFFF;
   padding: 10px 0;
-  margin-bottom: 17px;
+  margin-bottom: 16px;
 }
 
 .login-btn p {
@@ -75,7 +75,8 @@ body {
   align-items: center;
 }
 .link-item {
-  display: flex;
+  width: auto;
+  display: flex; 
   align-items: flex-end;
 }
 
@@ -87,4 +88,3 @@ body {
   font-size: 12px;
   line-height: 1.25;
 }
-
